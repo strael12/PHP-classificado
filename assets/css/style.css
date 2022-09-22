@@ -1,0 +1,100 @@
+
+body {
+    background: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form label {
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+
+.nav-bar {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.nav-link1 li{
+    padding: 10px 20px 10px;
+    border: 2px black  solid ;
+    border-radius: 10px;
+    margin: 2px;
+    
+}
+
+
+.nav-link1 li:nth-child(1){
+    background-color: #fff;
+    
+}
+
+.nav-link1 li:nth-child(2){
+    background-color: orange;
+    
+}
+
+form{
+    margin: auto; 
+    width: 21%;
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: column;
+    border: solid 1px #eee;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+.btn-enter {
+    border: solid 1px rgb(249, 157, 83);
+    background: rgb(249, 157, 83);
+    font-size: 16px;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 30px;
+    width: 92%;
+    display: list-item;
+    cursor: pointer;
+}
+
+.button-action {
+    display: flex;
+    justify-content: center;
+}
+
+.form-in{
+    padding: 10px 20px;
+    padding-top: 2px;
+}
+
+.forgot-password {
+    float: right;
+    margin-right: 14px;
+    font-size: 14px;
+}
+
+.form-in input {
+    margin-top: 8px;
+    padding: 17px 15px;
+    width: 91.5%;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #cecece;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
